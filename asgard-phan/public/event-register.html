@@ -1,0 +1,104 @@
+DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Asgard</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Phantasy Wrestling</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Gallery</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-log-in"></span> Login</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<br/>
+	<div class="container-fluid bg-3">
+		<div class="row">
+			<div class="col-sm-10">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Phantasy Game Registration</h3>
+					</div>
+					<div class="panel-body fixedHeight">
+						<form>
+							<div class="form-group">
+								<label for="eventName">Event</label>
+								<input type="text" class="form-control" id="eventName" placeholder="Event">
+							</div>
+							<input type="hidden" id="eventId">
+							<button type="button" onclick="register();" class="btn btn-success">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br/>
+	<footer class="container-fluid text-center">
+		<p>Footer Text</p>
+	</footer>
+
+	<!-- <div class="jumbotron jumbotron-text">
+		<h1 class="display-4">Phantasy Wrestling</h1>
+	</div>
+
+	<div class="row">
+		<div class="col-8 container">
+			<h2 class="intro">Do you have what it takes?</h2>
+			<button id="btnEvents">See Upcoming Matches</button>
+		</div>
+		<div class="col-4">
+			<table id="tblEvents">
+
+			</table>
+
+		</div>
+	</div> -->
+
+	<!-- -->
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="event-register.js"></script>
+
+</body>
